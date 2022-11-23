@@ -1,57 +1,56 @@
-<script setup lang="ts">
-const user = useUserStore()
-const name = $ref(user.savedName)
-
-const router = useRouter()
-const go = () => {
-  if (name)
-    router.push(`/hi/${encodeURIComponent(name)}`)
-}
-
-const { t } = useI18n()
-</script>
-
 <template>
-  <div>
-    <div text-4xl>
-      <div i-carbon-campsite inline-block />
+  <div class="w-full h-screen flex bg-dark-50">
+    <div class="m-auto">
+      <Hero hero-title="A showcase of my past and ongoing projects" />
     </div>
-    <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Vitesse
-      </a>
-    </p>
-    <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
-    </p>
+  </div>
 
-    <div py-4 />
-
-    <input
-      id="input"
-      v-model="name"
-      :placeholder="t('intro.whats-your-name')"
-      :aria-label="t('intro.whats-your-name')"
-      type="text"
-      autocomplete="false"
-      p="x4 y2"
-      w="250px"
-      text="center"
-      bg="transparent"
-      border="~ rounded gray-200 dark:gray-700"
-      outline="none active:none"
-      @keydown.enter="go"
-    >
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
-
-    <div>
-      <button
-        btn m-3 text-sm
-        :disabled="!name"
-        @click="go"
-      >
-        {{ t('button.go') }}
-      </button>
+  <div class="columns is-gapless !mb-0">
+    <div class="column">
+      <div class="overlay-container relative">
+        <figure class="image">
+          <img src="/escapod-framed.png">
+        </figure>
+        <div class="overlay bg-violet-500">
+          Stonks
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="overlay-container relative">
+        <figure class="image">
+          <img src="/ewb-framed.png">
+        </figure>
+        <div class="overlay bg-cyan-500">
+          <figure class="image">
+            <img src="/ewb-logo.png" class="p-30">
+            Multiplayer party game
+            Role: Artist & UI Designer
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="columns is-gapless">
+    <div class="column">
+      <div class="overlay-container relative">
+        <figure class="image">
+          <img src="/artpack-framed.png">
+        </figure>
+        <div class="overlay bg-amber-600">
+          Stonks
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="overlay-container relative">
+        <figure class="image">
+          <img src="/demoman-framed.png">
+        </figure>
+        <div class="overlay bg-red-500">
+          Stonks
+        </div>
+      </div>
     </div>
   </div>
 </template>

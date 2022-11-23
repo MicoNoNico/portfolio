@@ -1,4 +1,7 @@
 @import './markdown.css';
+@import '../../node_modules/bulma/css/bulma.css';
+
+
 
 html,
 body,
@@ -26,4 +29,33 @@ html.dark {
   left: 0;
   width: 100%;
   height: 2px;
+}
+
+/* #region navbar */
+
+.router-link-active {
+  background-color: #ffe08a !important;
+  border-color: transparent !important;
+}
+
+/* #endregion */
+
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.overlay-container:hover > .overlay {
+  opacity: 1;
+}
+
+.column {
+  width: 100% !important;
+  height: 100% !important;
 }
