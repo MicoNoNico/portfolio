@@ -6,49 +6,82 @@
   </div>
 
   <div class="columns is-gapless !mb-0">
-    <div class="column">
-      <div class="overlay-container relative">
-        <figure class="image">
+    <div id="escapod" class="column">
+      <div class="overlay-container relative cursor-pointer">
+        <figure>
           <img src="/escapod-framed.png">
         </figure>
         <div class="overlay bg-violet-500">
-          Stonks
+          <div class="m-auto">
+            <h1 class="title is-3 text-light-900">
+              ESCAPOD
+            </h1>
+            <h2 class="subtitle is-4 text-light-900">
+              Casual mobile game
+            </h2>
+            <br>
+            <h2 class="subtitle is-4 text-light-900">
+              Role: Artist
+            </h2>
+          </div>
         </div>
       </div>
     </div>
-    <div class="column">
-      <div class="overlay-container relative">
+    <div id="ewb" class="column">
+      <div class="overlay-container relative cursor-pointer">
         <figure class="image">
           <img src="/ewb-framed.png">
         </figure>
         <div class="overlay bg-cyan-500">
-          <figure class="image">
-            <img src="/ewb-logo.png" class="p-30">
-            Multiplayer party game
-            Role: Artist & UI Designer
-          </figure>
+          <div class="m-auto">
+            <h1 class="title is-3 text-light-900">
+              Enemies With Benefits
+            </h1>
+            <h2 class="subtitle is-4 text-light-900">
+              Multiplayer party game
+            </h2>
+            <br>
+            <h2 class="subtitle is-4 text-light-900">
+              Role: Artist & UI Designer
+            </h2>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="columns is-gapless">
+  <div id="artpack" class="columns is-gapless">
     <div class="column">
-      <div class="overlay-container relative">
+      <div class="overlay-container relative cursor-pointer">
         <figure class="image">
           <img src="/artpack-framed.png">
         </figure>
         <div class="overlay bg-amber-600">
-          Stonks
+          <div class="m-auto">
+            <h1 class="title is-3 text-light-900">
+              Art Asset Pack
+            </h1>
+          </div>
         </div>
       </div>
     </div>
-    <div class="column">
-      <div class="overlay-container relative">
+    <div id="demoman" class="column">
+      <div class="overlay-container relative cursor-pointer">
         <figure class="image">
           <img src="/demoman-framed.png">
         </figure>
         <div class="overlay bg-red-500">
-          Stonks
+          <div class="m-auto">
+            <h1 class="title is-3 text-light-900">
+              Demolition Man
+            </h1>
+            <h2 class="subtitle is-4 text-light-900">
+              Singleplayer sidescrolling platformer
+            </h2>
+            <br>
+            <h2 class="subtitle is-4 text-light-900">
+              Role: Artist & UI Designer
+            </h2>
+          </div>
         </div>
       </div>
     </div>

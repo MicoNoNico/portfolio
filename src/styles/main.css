@@ -59,3 +59,23 @@ html.dark {
   width: 100% !important;
   height: 100% !important;
 }
+
+#ewb {
+  background: rgb(2,110,129);
+  background: linear-gradient(180deg, rgba(2,110,129,1) 0%, rgba(0,171,189,1) 100%);
+}
+
+#escapod {
+  background: rgb(85,50,133);
+  background: linear-gradient(180deg, rgba(85,50,133,1) 0%, rgba(151,104,209,1) 100%);
+}
+
+#artpack {
+  background: rgb(255,153,51);
+  background: linear-gradient(180deg, rgba(255,153,51,1) 0%, rgba(255,236,92,1) 100%);
+}
+
+#demoman {
+  background: rgb(155,30,13);
+  background: linear-gradient(180deg, rgba(155,30,13,1) 0%, rgba(255,90,51,1) 100%);
+}
