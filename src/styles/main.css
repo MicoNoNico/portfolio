@@ -38,7 +38,14 @@ html.dark {
   border-color: transparent !important;
 }
 
+.navbar {
+  background: transparent;
+}
+
 /* #endregion */
+
+
+/* #region home */
 
 .overlay {
   position: absolute;
@@ -53,11 +60,6 @@ html.dark {
 
 .overlay-container:hover > .overlay {
   opacity: 1;
-}
-
-.column {
-  width: 100% !important;
-  height: 100% !important;
 }
 
 #ewb {
@@ -78,4 +80,23 @@ html.dark {
 #demoman {
   background: rgb(155,30,13);
   background: linear-gradient(180deg, rgba(155,30,13,1) 0%, rgba(255,90,51,1) 100%);
+}
+
+/* #endregion */
+
+
+.centered {
+  margin: auto;
+  width: 50%;
+}
+
+.btn-purple {
+  background: #5b21b6;
+  border: none;
+}
+
+@media screen and (min-width: 700px) {
+  #escapod-video {
+    width: 30%
+}
 }

@@ -6,9 +6,9 @@
   </div>
 
   <div class="columns is-gapless !mb-0">
-    <div id="escapod" class="column">
+    <router-link id="escapod" to="/projects/escapod" class="column">
       <div class="overlay-container relative cursor-pointer">
-        <figure>
+        <figure class="image">
           <img src="/escapod-framed.png">
         </figure>
         <div class="overlay bg-violet-500">
@@ -17,7 +17,7 @@
               ESCAPOD
             </h1>
             <h2 class="subtitle is-4 text-light-900">
-              Casual mobile game
+              casual mobile game
             </h2>
             <br>
             <h2 class="subtitle is-4 text-light-900">
@@ -26,8 +26,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div id="ewb" class="column">
+    </router-link>
+    <router-link id="ewb" to="/projects/ewb" class="column">
       <div class="overlay-container relative cursor-pointer">
         <figure class="image">
           <img src="/ewb-framed.png">
@@ -47,10 +47,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </router-link>
   </div>
   <div id="artpack" class="columns is-gapless">
-    <div class="column">
+    <router-link to="/projects/artpack" class="column">
       <div class="overlay-container relative cursor-pointer">
         <figure class="image">
           <img src="/artpack-framed.png">
@@ -63,8 +63,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div id="demoman" class="column">
+    </router-link>
+    <router-link id="demoman" to="projects/demoman" class="column">
       <div class="overlay-container relative cursor-pointer">
         <figure class="image">
           <img src="/demoman-framed.png">
@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </router-link>
   </div>
 </template>
 

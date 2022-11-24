@@ -1,9 +1,8 @@
 <template>
-  <nav class="navbar is-dark py-3" role="navigation" aria-label="main navigation">
+  <nav class="navbar py-3" role="navigation" aria-label="main navigation">
     <div class="navbar-item text-yellow-500 font-medium text-2xl">
       Niccolò Chiodo
     </div>
-
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
