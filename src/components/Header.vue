@@ -10,7 +10,7 @@
             <router-link to="/" class="button is-warning is-light">
               Portfolio
             </router-link>
-            <router-link to="/about" class="button is-warning is-light">
+            <router-link to="/aboutme" class="button is-warning is-light">
               About Me
             </router-link>
             <router-link to="/contact" class="button is-warning is-light">
