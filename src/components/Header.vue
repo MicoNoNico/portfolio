@@ -1,41 +1,31 @@
-<script>
-export default {
-  data() {
-    return {
-      // control variables
-      isActive: false,
-      showNavbar: true,
-    }
-  },
-}
+<script setup lang="ts">
+const isActive = ref(false)
 </script>
 
 <template>
-  <header class="navbar is-fixed-top is-transparent is-spaced">
-    <div class="container">
-      <a to="/">
-        <figure class="image ml-5 my-auto">
-          <img src="/logo.png" style="width: 60px; height: auto;">
-        </figure>
+  <nav class="navbar is-spaced shadow py-3" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand flex">
+      <a to="/" class="my-auto ml-2">
+        <img src="/logo.png" width="60">
       </a>
-      <a :aria-expanded="isActive" :class="{ 'is-active': isActive }" role="button" class="navbar-burger" aria-label="menu" data-target="collapse" @click="isActive = !isActive">
+      <a role="button" class="navbar-burger ml-auto my-auto" aria-label="menu" aria-expanded="false" :class="{ 'is-active': isActive }" data-target="navBarMain" @click="isActive = !isActive">
         <span aria-hidden="true" />
         <span aria-hidden="true" />
         <span aria-hidden="true" />
       </a>
-      <div id="collapse" class="navbar-menu is-paddingless is-active">
-        <nav class="navbar-end">
-          <router-link to="/" class="navbar-item">
-            Portfolio
-          </router-link>
-          <router-link to="/aboutme" class="navbar-item">
-            About Me
-          </router-link>
-          <router-link to="/contact" class="navbar-item">
-            Contact
-          </router-link>
-        </nav>
+    </div>
+    <div id="navBarMain" class="navbar-menu text-xl bg-transparent" :class="{ 'is-active': isActive }">
+      <div class="navbar-end">
+        <router-link to="/" class="navbar-item" @click="isActive = false">
+          Projects
+        </router-link>
+        <router-link to="/aboutme" class="navbar-item" @click="isActive = false">
+          About Me
+        </router-link>
+        <router-link to="/contact" class="navbar-item" @click="isActive = false">
+          Contact
+        </router-link>
       </div>
     </div>
-  </header>
+  </nav>
 </template>
