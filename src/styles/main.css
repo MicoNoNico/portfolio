@@ -95,6 +95,11 @@ html.dark {
   border: none;
 }
 
+.skill-icon {
+  display: inline;
+  margin: 1rem;
+}
+
 @media screen and (min-width: 700px) {
   #escapod-video {
     width: 30%
