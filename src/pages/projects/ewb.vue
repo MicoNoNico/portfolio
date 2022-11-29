@@ -25,13 +25,13 @@
         </figure>
       </div>
     </div>
-    <div class="columns p-10">
+    <div class="columns mt-10 p-10 bg-gray-300">
       <div class="column text-left">
         <h1 class="title is-2 text-cyan-500 centered">
           DETAILS
         </h1>
         <br>
-        <h2 class="subtitle is-4 text-light-900 centered">
+        <h2 class="subtitle is-4 text-dark-900 font-semibold centered">
           Genre: Party game
           <br>
           Engine: Unity
@@ -44,7 +44,7 @@
           ROLE
         </h1>
         <br>
-        <h3 class="subtitle is-5 text-light-900 centered">
+        <h3 class="subtitle is-5 text-dark-900 font-semibold centered">
           <ul>
             <li>Ideation & Game Design</li>
             <li>UI Design</li>

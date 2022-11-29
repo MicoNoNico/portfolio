@@ -1,6 +1,6 @@
 <template>
   <main>
-    <figure class="image mx-180 mt-20 is-hidden-mobile">
+    <figure id="escapod-logo-desktop" class="image mt-20 is-hidden-mobile centered">
       <img src="/escapod-logo-scaled.png">
     </figure>
     <figure class="image is-hidden-tablet m-5">
@@ -22,13 +22,13 @@
         TRY THE GAME
       </h2>
     </a>
-    <div class="columns p-10">
+    <div class="columns mt-10 p-10 bg-gray-300">
       <div class="column text-left">
         <h1 class="title is-2 text-violet-500 centered">
           DETAILS
         </h1>
         <br>
-        <h2 class="subtitle is-4 text-light-900 centered">
+        <h2 class="subtitle is-4 text-dark-900 font-semibold centered">
           Genre: Casual game
           <br>
           Platform: Opera GX (Mobile/PC)
@@ -43,8 +43,10 @@
           ROLE
         </h1>
         <br>
-        <h2 class="subtitle is-4 text-light-900 centered">
-          Ideation & Game Design
+        <h2 class="subtitle is-4 text-dark-900 font-semibold centered">
+          Ideation
+          <br>
+          Game Design
           <br>
           Pixel Art
         </h2>

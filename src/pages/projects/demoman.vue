@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1 class="title is-1 text-amber-700 pt-10">
+    <h1 class="title is-1 text-red-600 pt-10">
       Demolition Man
     </h1>
     <div class="is-size-5 p-20">
@@ -15,13 +15,13 @@
       </figure>
     </div>
 
-    <div class="columns p-10">
+    <div class="columns mt-10 p-10 bg-gray-300">
       <div class="column text-left">
-        <h1 class="title is-2 text-cyan-500 centered">
+        <h1 class="title is-2 text-red-600 centered">
           DETAILS
         </h1>
         <br>
-        <h2 class="subtitle is-4 text-light-900 centered">
+        <h2 class="subtitle is-4 text-dark-900 font-semibold centered">
           Genre: Platformer
           <br>
           Engine: Unity
@@ -30,11 +30,11 @@
         </h2>
       </div>
       <div class="column text-left">
-        <h1 class="title is-2 text-cyan-500 centered">
+        <h1 class="title is-2 text-red-600 centered">
           ROLE
         </h1>
         <br>
-        <h3 class="subtitle is-5 text-light-900 centered">
+        <h3 class="subtitle is-5 text-dark-900 font-semibold centered">
           <ul>
             <li>Ideation & Game Design</li>
             <li>UI Design</li>

@@ -32,15 +32,17 @@
       </figure>
     </div>
 
-    <h1 class="title is-2 text-violet-500 pt-20 centered">
-      DETAILS
-    </h1>
-    <br>
-    <h2 class="subtitle is-4 text-light-900 centered">
-      Tool: Blender
+    <div class="my-10 bg-gray-300">
+      <h1 class="title is-2 text-amber-700 pt-20 centered">
+        DETAILS
+      </h1>
       <br>
-      Year: 2021
-    </h2>
+      <h2 class="subtitle is-4 text-dark-900 font-semibold centered">
+        Tool: Blender
+        <br>
+        Year: 2021
+      </h2>
+    </div>
   </main>
 </template>
 

@@ -42,6 +42,12 @@ html.dark {
   background: transparent;
 }
 
+.router-link-active {
+  background-color: transparent !important;
+  outline-style: solid;
+  outline-color: #dde1e3 !important;
+}
+
 /* #endregion */
 
 
