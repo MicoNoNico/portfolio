@@ -1,12 +1,16 @@
 <script setup lang="ts">
 const isActive = ref(false)
+const router = useRouter()
+const go = () => {
+  router.push('/')
+}
 </script>
 
 <template>
   <nav class="navbar is-spaced shadow py-3" role="navigation" aria-label="main navigation">
     <div class="navbar-brand flex">
-      <a to="/" class="my-auto ml-2">
-        <img src="/logo.png" width="60">
+      <a to="/" class="my-auto ml-2 !active:outline-none !focus:outline-none">
+        <img src="/logo.png" width="60" @click="go">
       </a>
       <a role="button" class="navbar-burger ml-auto my-auto" aria-label="menu" aria-expanded="false" :class="{ 'is-active': isActive }" data-target="navBarMain" @click="isActive = !isActive">
         <span aria-hidden="true" />

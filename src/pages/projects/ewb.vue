@@ -27,7 +27,7 @@
     </div>
     <div class="columns mt-10 p-10 bg-gray-300">
       <div class="column text-left">
-        <h1 class="title is-2 text-cyan-500 centered">
+        <h1 class="title is-2 text-green-600 centered">
           DETAILS
         </h1>
         <br>
@@ -40,7 +40,7 @@
         </h2>
       </div>
       <div class="column text-left">
-        <h1 class="title is-2 text-cyan-500 centered">
+        <h1 class="title is-2 text-green-600 centered">
           ROLE
         </h1>
         <br>

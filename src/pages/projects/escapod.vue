@@ -1,12 +1,12 @@
 <template>
-  <main>
+  <main class="wrap">
     <figure id="escapod-logo-desktop" class="image mt-20 is-hidden-mobile centered">
       <img src="/escapod-logo-scaled.png">
     </figure>
     <figure class="image is-hidden-tablet m-5">
       <img src="/escapod-logo-scaled.png">
     </figure>
-    <div class="is-size-5 p-20">
+    <div class="is-size-5 my-20">
       Your home is under attack by a monstrous alien! Guide the survivors to their designated Escapod to ensure their escape.
       <br>
       Keep the line moving at all costs!
