@@ -1,33 +1,23 @@
-<script setup lang="ts">
-const { t, availableLocales, locale } = useI18n()
-
-const toggleLocales = () => {
-  // change to some real logic
-  const locales = availableLocales
-  locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
+<script>
+import { Icon } from '@iconify/vue'
+export default {
+  components: {
+    Icon,
+  },
 }
 </script>
 
 <template>
-  <nav text-xl mt-6>
-    <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <div i-carbon-campsite />
-    </RouterLink>
-
-    <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" />
-    </button>
-
-    <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales()">
-      <div i-carbon-language />
-    </a>
-
-    <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <div i-carbon-dicom-overlay />
-    </RouterLink>
-
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
-    </a>
-  </nav>
+  <footer class="footer bg-dark-900 w-full h-auto p-2">
+    <nav class="centered">
+      <a href="https://www.linkedin.com/in/niccolo-chiodo/"><Icon icon="mdi:linkedin" target="_blank" height="60" color="white" class="display-inline m-5" /></a>
+      <a href="https://github.com/MicoNoNico"><Icon icon="mdi:github" target="_blank" width="60" color="white" class="display-inline m-5" /></a>
+      <br>
+      <h1 class="title is-6 text-light-900 display-inline">
+        Made by Niccolò Chiodo
+      </h1>
+      <Icon icon="ph:copyright-fill" width="20" class="display-inline" />
+      2023
+    </nav>
+  </footer>
 </template>
