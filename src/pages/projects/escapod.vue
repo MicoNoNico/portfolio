@@ -22,7 +22,8 @@
         TRY THE GAME
       </h2>
     </a>
-    <div class="columns mt-10 p-10 bg-gray-300">
+
+    <div class="columns mt-10 p-10 bg-gray-300 is-hidden-touch">
       <div class="column text-left">
         <h1 class="title is-2 text-violet-500 centered">
           DETAILS
@@ -44,6 +45,35 @@
         </h1>
         <br>
         <h2 class="subtitle is-4 text-dark-900 font-semibold centered">
+          Ideation
+          <br>
+          Game Design
+          <br>
+          Pixel Art
+        </h2>
+      </div>
+    </div>
+
+    <div class="columns mt-10 p-10 bg-gray-300 is-hidden-desktop">
+      <div class="column text-left">
+        <h1 class="title is-3 text-violet-500">
+          DETAILS
+        </h1>
+        <h2 class="subtitle is-6 text-dark-900 font-semibold">
+          Genre: Casual game
+          <br>
+          Platform: Opera GX (Mobile/PC)
+          <br>
+          Engine: Game Maker Studio
+          <br>
+          Opera Mobile Game Jam 2022
+        </h2>
+      </div>
+      <div class="column text-left">
+        <h1 class="title is-3 text-violet-500">
+          ROLE
+        </h1>
+        <h2 class="subtitle is-6 text-dark-900 font-semibold">
           Ideation
           <br>
           Game Design

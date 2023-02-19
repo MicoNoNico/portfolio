@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <main class="wrap is-half-desktop is-two-thirds-tablet is-full-mobile">
+  <main class="wrap is-half-desktop is-two-thirds-tablet is-full-mobile mb-25">
     <h1 class="title is4 text-light-900 mt-10">
       Contact Me
     </h1>

@@ -26,13 +26,18 @@
         </ul>
       </h2>
     </div>
-    <div class="px-40">
+    <div class="px-40 is-hidden-touch">
+      <figure class="image is-16by9">
+        <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/e3lT3nWPWjI" title="YouTube video player" allowfullscreen />
+      </figure>
+    </div>
+    <div class="p-10 is-hidden-desktop">
       <figure class="image is-16by9">
         <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/e3lT3nWPWjI" title="YouTube video player" allowfullscreen />
       </figure>
     </div>
 
-    <div class="my-10 bg-gray-300">
+    <div class="my-10 bg-gray-300 is-hidden-touch">
       <h1 class="title is-2 text-amber-700 pt-20 centered">
         DETAILS
       </h1>
@@ -42,6 +47,20 @@
         <br>
         Year: 2021
       </h2>
+      <br>
+    </div>
+
+    <div class="my-10 bg-gray-300 is-hidden-tablet">
+      <h1 class="title is-3 text-amber-700 pt-20">
+        DETAILS
+      </h1>
+      <br>
+      <h2 class="subtitle is-6 text-dark-900 font-semibold">
+        Tool: Blender
+        <br>
+        Year: 2021
+      </h2>
+      <br>
     </div>
   </main>
 </template>
