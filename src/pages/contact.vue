@@ -4,6 +4,12 @@ export default {
   methods: {
     sendEmail() {
       emailjs.sendForm('contact_service', 'template_contact', this.$refs.form, 'hJzNR03AN7-iC4wCe')
+        .then((result) => {
+          this.$refs.form.reset()
+          alert('Message sent!')
+        }, (error) => {
+          alert('Message not sent', error)
+        })
     },
   },
 }
@@ -17,25 +23,25 @@ export default {
     <form ref="form" @submit.prevent="sendEmail">
       <div class="field mt-20">
         <div class="control">
-          <input name="from_name" class="input" type="text" placeholder="Name">
+          <input name="from_name" class="input" type="text" placeholder="Name" required>
         </div>
       </div>
 
       <div class="field mt-10">
         <div class="control">
-          <input name="from_email" class="input" type="email" placeholder="Email">
+          <input name="from_email" class="input" type="email" placeholder="Email" required>
         </div>
       </div>
 
       <div class="field mt-10">
         <div class="control">
-          <input name="subject" class="input" type="text" placeholder="Subject">
+          <input name="subject" class="input" type="text" placeholder="Subject" required>
         </div>
       </div>
 
       <div class="field mt-10">
         <div class="control">
-          <textarea name="message" class="textarea" placeholder="Message" />
+          <textarea name="message" class="textarea" placeholder="Message" required />
         </div>
       </div>
 
