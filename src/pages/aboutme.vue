@@ -2,7 +2,7 @@
   <main class="wrap">
     <div class="mt-10">
       <div class="mx-10 text-left text-xl text-light-900">
-        <span class="subtitle is-3 text-light-900">Hi there, I’m Nico and I’m an aspiring Game UI and UX designer.</span>
+        <span class="subtitle is-3 text-light-900">Hi there, I’m Nico and I’m an aspiring Game UI and UX developer.</span>
         <br>
         <br>
         Currently based in Groningen, Netherlands where I am studying Game Design at Hanze University of Applied Sciences.
