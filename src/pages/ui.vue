@@ -218,6 +218,9 @@ export default {
         <h2 class="subtitle is-3 text-violet-400">
           VR Forge
         </h2>
+        <b>
+          Engine: Unity
+        </b>
         <!-- Youtube Link -->
         <figure class="image is-16by9">
           <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/pNhJF2vmFPA" title="YouTube video player" allowfullscreen />
@@ -234,7 +237,7 @@ export default {
         <div class="mb-5">
           <a href="/vrforge-ui.png" data-title="VR Forge UI"><img src="/vrforge-ui.png" alt="VR Forge UI"></a>
           <p class="text-base mt-2">
-            VR Forge interface without map
+            VR Forge interface
           </p>
         </div>
         <br>

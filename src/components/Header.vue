@@ -20,16 +20,16 @@ const go = () => {
     </div>
     <div id="navBarMain" class="navbar-menu text-xl bg-transparent" :class="{ 'is-active': isActive }">
       <div class="navbar-end">
-        <router-link to="/ui" class="navbar-item text-light-900" @click="isActive = false">
+        <router-link to="/ui" class="navbar-item text-light-900 mx-1" @click="isActive = false">
           <b>UI/UX</b>
         </router-link>
-        <router-link to="/" class="navbar-item text-light-900" @click="isActive = false">
+        <router-link to="/" class="navbar-item text-light-900 mx-1" @click="isActive = false">
           Projects
         </router-link>
-        <router-link to="/aboutme" class="navbar-item text-light-900" @click="isActive = false">
+        <router-link to="/aboutme" class="navbar-item text-light-900 mx-1" @click="isActive = false">
           About Me
         </router-link>
-        <router-link to="/contact" class="navbar-item text-light-900" @click="isActive = false">
+        <router-link to="/contact" class="navbar-item text-light-900 mx-1" @click="isActive = false">
           Contact
         </router-link>
       </div>
