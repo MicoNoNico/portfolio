@@ -18,34 +18,34 @@
     </div>
 
     <div class="mt-20 is-hidden-touch">
-      <div class="bg-gray-300 my-10">
-        <img class="skill-icon" src="/csharp-logo.svg" alt="c sharp logo" style="width: 100px;">
-        <img class="skill-icon" src="/html-logo.png" alt="html 5 logo" style="width: 100px;">
-        <img class="skill-icon" src="/js-logo.png" alt="javascript logo" style="width: 100px;">
+      <div class="bg-gray-300 mx-10 my-10 rounded-2xl">
+        <img class="skill-icon" src="/csharp-logo.svg" alt="c sharp logo" style="width: auto; height: 100px;">
+        <img class="skill-icon" src="/html-logo.png" alt="html 5 logo" style="width: auto; height: 100px;">
+        <img class="skill-icon" src="/js-logo.png" alt="javascript logo" style="width: auto; height: 100px;">
       </div>
-      <div class="bg-gray-300 my-10">
+      <div class="bg-gray-300 mx-10 my-10 rounded-2xl">
         <img class="skill-icon" src="/unity-logo.svg" alt="unity logo" style="width: 200px;">
-        <img class="skill-icon" src="/blender-logo.png" alt="blender logo" style="width: 100px;">
-        <img class="skill-icon" src="/ps-logo.png" alt="photoshop logo" style="width: 100px;">
-        <img class="skill-icon" src="/ai-logo.png" alt="illustrator logo" style="width: 100px;">
-        <img class="skill-icon" src="/xd-logo.png" alt="adobe XD logo" style="width: 100px;">
-        <img class="skill-icon" src="/id-logo.png" alt="adobe XD logo" style="width: 100px;">
+        <img class="skill-icon" src="/blender-logo.png" alt="blender logo" style="width: auto; height: 100px;">
+        <img class="skill-icon" src="/ps-logo.png" alt="photoshop logo" style="width: auto; height: 100px;">
+        <img class="skill-icon" src="/ai-logo.png" alt="illustrator logo" style="width: auto; height: 100px;">
+        <img class="skill-icon" src="/xd-logo.png" alt="adobe XD logo" style="width: auto; height: 100px;">
+        <img class="skill-icon" src="/id-logo.png" alt="adobe XD logo" style="width: auto; height: 100px;">
       </div>
     </div>
 
-    <div class="mt-20 is-hidden-desktop">
-      <div class="bg-gray-300 my-10">
-        <img class="skill-icon" src="/csharp-logo.svg" alt="c sharp logo" style="width: 50px;">
-        <img class="skill-icon" src="/html-logo.png" alt="html 5 logo" style="width: 50px;">
-        <img class="skill-icon" src="/js-logo.png" alt="javascript logo" style="width: 50px;">
+    <div class="mt-20 is-hidden-desktop rounded-2xl">
+      <div class="bg-gray-300 mx-10 my-10">
+        <img class="skill-icon" src="/csharp-logo.svg" alt="c sharp logo" style="width: auto; height: 50px;">
+        <img class="skill-icon" src="/html-logo.png" alt="html 5 logo" style="width: auto; height: 50px;">
+        <img class="skill-icon" src="/js-logo.png" alt="javascript logo" style="width: auto; height: 50px;">
       </div>
-      <div class="bg-gray-300 my-10">
-        <img class="skill-icon" src="/unity-logo.svg" alt="unity logo" style="width: 50px;">
-        <img class="skill-icon" src="/blender-logo.png" alt="blender logo" style="width: 50px;">
-        <img class="skill-icon" src="/ps-logo.png" alt="photoshop logo" style="width: 50px;">
-        <img class="skill-icon" src="/ai-logo.png" alt="illustrator logo" style="width: 50px;">
-        <img class="skill-icon" src="/xd-logo.png" alt="adobe XD logo" style="width: 50px;">
-        <img class="skill-icon" src="/id-logo.png" alt="adobe XD logo" style="width: 50px;">
+      <div class="bg-gray-300 mx-10 my-10 rounded-2xl">
+        <img class="skill-icon" src="/unity-logo.svg" alt="unity logo" style="width: auto; height: 50px;">
+        <img class="skill-icon" src="/blender-logo.png" alt="blender logo" style="width: auto; height: 50px;">
+        <img class="skill-icon" src="/ps-logo.png" alt="photoshop logo" style="width: auto; height: 50px;">
+        <img class="skill-icon" src="/ai-logo.png" alt="illustrator logo" style="width: auto; height: 50px;">
+        <img class="skill-icon" src="/xd-logo.png" alt="adobe XD logo" style="width: auto; height: 50px;">
+        <img class="skill-icon" src="/id-logo.png" alt="adobe XD logo" style="width: auto; height: 50px;">
       </div>
     </div>
   </main>

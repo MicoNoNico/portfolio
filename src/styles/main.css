@@ -27,12 +27,37 @@ body,
   height: 2px;
 }
 
+.navbar-item:hover {
+  background: #323232 !important;
+}
+
 a.navbar-item:hover {
-  color: #38bdf8;
+  color: #2dd4bf !important;
 }
 
 a.navbar-item:active {
-  color: #38bdf8;
+  color: #2dd4bf !important;
+}
+
+a.navbar-item:focus {
+  color: #2dd4bf !important; 
+}
+
+a.text-link:hover {
+  color: #5eead4;
+  text-decoration: none;
+}
+
+a.button-text-link:hover {
+  color: #f2f2f2
+}
+
+.swiper-button-next {
+  color: #2dd4bf !important;
+}
+
+.swiper-button-prev {
+  color: #2dd4bf !important;
 }
 
 /* #region navbar */

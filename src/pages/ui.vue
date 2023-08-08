@@ -1,8 +1,25 @@
+<script>
+export default {
+  data() {
+    return {
+      images: [
+        '/shot-all.jpg',
+        '/shot-bossfight.jpg',
+        '/shot-buttons.jpg',
+        '/shot-icons.jpg',
+        '/shot-mobile.jpg',
+        '/shot-pixel.jpg',
+      ],
+    }
+  },
+}
+</script>
+
 <template>
   <main class="wrap">
     <div class="mt-10">
       <div class="mx-10 text-left text-xl text-light-900">
-        <span class="subtitle is-3 text-indigo-600">My User Interface Experience</span>
+        <span class="subtitle is-3 text-violet-400">My User Interface Experience</span>
         <br>
         <br>
         This is a page dedicated to showcasing my recent experiences working with UI designing and development.
@@ -13,13 +30,18 @@
     <!-- Section 1 -->
     <div class="mt-10 mb-30">
       <div class="mx-10 text-left text-xl text-light-900">
-        <h2 class="subtitle is-3 text-indigo-600">
+        <h2 class="subtitle is-3 text-violet-400">
           Project Materia
         </h2>
+        <b>
+          Engine: Unity
+        </b>
+        <br>
+        <br>
         <!-- Youtube Link -->
-        <div style="position: relative; overflow: hidden; width: 100%; padding-bottom: 56.25%;">
-          <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zjwjtEVqBQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
-        </div>
+        <figure class="image is-16by9">
+          <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/zjwjtEVqBQc" title="YouTube video player" allowfullscreen />
+        </figure>
 
         <br>
         <!-- Text Block -->
@@ -27,11 +49,7 @@
         <br>
         The game aims to become a rogue-lite bullet hell experience with customization/progression elements in the form of cards and deck building.
         <br>
-        <br>
-        <b>
-          engine: Unity
-        </b>
-        <br>
+
         <br>
         The video above showcases the user interface of the menu and basic hud of the game.
         <br>
@@ -39,7 +57,9 @@
         <br>
         <br>
         <!-- Figma Link -->
-        <a href="https://www.figma.com/proto/X341Fo4fQlTsAHlhIVkeUO/Materia-UI?type=design&node-id=4-7&t=KiEurVew7dq4DeLg-1&scaling=contain&page-id=0%3A1&starting-point-node-id=4%3A7&mode=design" target="_blank" style="color: #D97706; text-decoration: none;">View Wireframe on Figma</a>
+        <button class="button is-primary bg-teal-400">
+          <a href="https://www.figma.com/proto/X341Fo4fQlTsAHlhIVkeUO/Materia-UI?type=design&node-id=4-7&t=KiEurVew7dq4DeLg-1&scaling=contain&page-id=0%3A1&starting-point-node-id=4%3A7&mode=design" class="button-text-link text-dark-500 font-bold" target="_blank">View Wireframe on Figma</a>
+        </button>
         <br>
         <br>
         The wireframe of the menu aims to be as simple and convenient to use as possible for the user.
@@ -53,12 +73,12 @@
         These methods are called multiple times during navigation to avoid redundance in the code for buttons.
         <br>
         <br>
-        To ease the process of creating animations, I created the "Animico" library with various methods to programmatically create simple sequences. I have made the library public and can be viewed <a href="https://github.com/MicoNoNico/Animico/blob/main/README.md" target="_blank" style="color: #D97706; text-decoration: none;">here</a> and in the snippets that follow.
+        To ease the process of creating animations, I created the "Animico" library with various methods to programmatically create simple sequences. I have made the library public and can be viewed <a href="https://github.com/MicoNoNico/Animico/blob/main/README.md" class="text-teal-400 text-link" target="_blank">here</a> and in the snippets that follow.
         <br>
         <br>
         <details>
-          <summary style="color: #D97706; cursor: pointer;">
-            Code Snippet (C#) - Menu Navigation Methods
+          <summary style="cursor: pointer;">
+            <a class="text-teal-400 text-link">Code Snippet (C#) - Menu Navigation Methods</a>
           </summary>
           <pre><code>
       <b>// This code utilizes the C# library Animico for tweening animations.</b>
@@ -114,8 +134,8 @@
         </details>
         <br>
         <details>
-          <summary style="color: #D97706; cursor: pointer;">
-            Code Snippet (C#) - Animico method to move an object on an axis
+          <summary style="cursor: pointer;">
+            <a class="text-teal-400 text-link">Code Snippet (C#) - Animico method to move an object on an axis</a>
           </summary>
           <pre><code>
       <span style="color:green;">/// &lt;summary&gt;
@@ -195,13 +215,13 @@
     <!-- Section 2 -->
     <div class="mt-10 mb-30">
       <div class="mx-10 text-left text-xl text-light-900">
-        <h2 class="subtitle is-3 text-indigo-600">
+        <h2 class="subtitle is-3 text-violet-400">
           VR Forge
         </h2>
         <!-- Youtube Link -->
-        <div style="position: relative; overflow: hidden; width: 100%; padding-bottom: 56.25%;">
-          <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/pNhJF2vmFPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
-        </div>
+        <figure class="image is-16by9">
+          <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/pNhJF2vmFPA" title="YouTube video player" allowfullscreen />
+        </figure>
 
         <br>
         <!-- Text Block -->
@@ -230,8 +250,8 @@
         <br>
         <br>
         <details>
-          <summary style="color: #D97706; cursor: pointer;">
-            Code Snippet (C#) - Tooltip Display Logic
+          <summary style="cursor: pointer;">
+            <a class="text-teal-400 text-link">Code Snippet (C#) - Tooltip Display Logic</a>
           </summary>
           <pre><code>
       private void Update() {
@@ -261,7 +281,7 @@
     <!-- Section 3 -->
     <div class="mt-10 mb-30">
       <div class="mx-10 text-left text-xl text-light-900">
-        <h2 class="subtitle is-3 text-indigo-600">
+        <h2 class="subtitle is-3 text-violet-400">
           Various Assets
         </h2>
         <!-- Description -->
@@ -269,7 +289,9 @@
           In this section I showcase some assets that I made available through the Unity Asset Store.
           <br>
           <br>
-          <a href="https://assetstore.unity.com/packages/2d/gui/roundify-gui-pack-248690" target="_blank" style="color: #D97706; text-decoration: none;">GUI Asset Anthology</a>
+          <button class="button is-primary bg-teal-400">
+            <a href="https://assetstore.unity.com/packages/2d/gui/roundify-gui-pack-248690" class="button-text-link text-dark-500 font-bold" target="_blank">GUI Asset Anthology</a>
+          </button>
           <br>
           <br>
           The following assets were created mainly using Adobe Illustrator and occasionally with Photoshop.
@@ -279,50 +301,11 @@
           <br>
           <br>
         </p>
-        <p class="text-lg">
-          Click on any image to expand it.
-        </p>
-
         <br>
 
-        <!-- Image Block -->
-        <div class="grid grid-cols-2 gap-7">
-          <div class="mb-5">
-            <a href="/shot-all.jpg" data-title="Various UI components"><img src="/shot-all.jpg" alt="All roundify elements"></a>
-            <p class="mt-2">
-              Various UI components
-            </p>
-          </div>
-          <div class="mb-5">
-            <a href="/shot-bossfight.jpg" data-title="An example of the assets for a boss fight scene"><img src="/shot-bossfight.jpg" alt="Boss fight demo scene"></a>
-            <p class="mt-2">
-              An example of the assets for a boss fight scene
-            </p>
-          </div>
-          <div class="mb-5">
-            <a href="/shot-buttons.jpg" data-title="A shot of all the buttons of the pack"><img src="/shot-buttons.jpg" alt="All buttons"></a>
-            <p class="mt-2">
-              A shot of all the buttons of the pack
-            </p>
-          </div>
-          <div class="mb-5">
-            <a href="/shot-mobile.jpg" data-title="An example of the assets for mobile use"><img src="/shot-mobile.jpg" alt="Mobile shots"></a>
-            <p class="mt-2">
-              An example of the assets for mobile use
-            </p>
-          </div>
-          <div class="mb-5">
-            <a href="/shot-icons.jpg" data-title="List of a few of the icons"><img src="/shot-icons.jpg" alt="Icons"></a>
-            <p class="mt-2">
-              List of a few of the icons
-            </p>
-          </div>
-          <div class="mb-5">
-            <a href="/shot-pixel.jpg" data-title="Various Assets used for Project Materia"><img src="/shot-pixel.jpg" alt="Pixel art"></a>
-            <p class="mt-2">
-              Various pixel assets used for Project Materia
-            </p>
-          </div>
+        <!-- Image Carousel -->
+        <div>
+          <Carousel :images="images" />
         </div>
       </div>
     </div>

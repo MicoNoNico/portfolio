@@ -47,7 +47,7 @@ export default {
 
       <div class="field mt-10">
         <div class="control">
-          <button class="button is-link px-10" type="submit">
+          <button class="button is-primary bg-teal-400 px-10 font-bold" type="submit">
             Submit Message
           </button>
         </div>

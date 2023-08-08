@@ -24,6 +24,7 @@
     "lightbox2": "^2.11.4",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.23",
+    "swiper": "^9.2.4",
     "v-viewer": "^1.6.4",
     "viewerjs": "^1.11.4",
     "vue": "^3.2.42",
