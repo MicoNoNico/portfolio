@@ -5,15 +5,14 @@
         <span class="subtitle is-3 text-light-900">Hi there, I’m Nico and I’m an aspiring Game UI and UX developer.</span>
         <br>
         <br>
-        Currently based in Groningen, Netherlands where I am studying Game Design at Hanze University of Applied Sciences.
-        I love learning about design, especially when it comes to the user experience and interactions with games.
-        As I plan to expand my competencies, I have been learning 3D modelling and animating in Blender,
-        as well as programming in C# for various Unity projects, for personal and student purposes.
+        Having recently graduated in June 2023 with a degree in Game Design from Hanze University of Applied Sciences in Groningen, Netherlands, I've now returned home in Italy.
+        I have a keen interest in design, particularly in understanding user experience and game interactions. In line with my ambitions as a UI developer,
+        I've been familiarizing myself with C# programming and building my own library for programming animations in Unity.
         <br>
         <br>
-        While I try to be competent in multiple fields, I am passionate about making the best user experience possible when interacting with a game.
-        I love wireframing/designing/making interfaces, creating concepts for levels and characters. Putting it all together and watching your work take
-        life is what drives me forward.
+        While I strive to be proficient across various disciplines, my passion centers on enhancing the user experience in games.
+        I take pleasure in drafting interfaces, conceptualizing levels and characters, and witnessing the culmination of all elements coming to life.
+        This process is what keeps me motivated and eager to push forward.
       </div>
     </div>
 
