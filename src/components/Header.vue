@@ -7,7 +7,7 @@ const go = () => {
 </script>
 
 <template>
-  <nav class="navbar is-spaced shadow py-3 bg-dark-400" role="navigation" aria-label="main navigation">
+  <nav id="navBar" class="navbar is-spaced shadow py-3 bg-dark-400" role="navigation" aria-label="main navigation">
     <div class="navbar-brand flex">
       <a to="/" class="my-auto ml-2 !active:outline-none !focus:outline-none">
         <img src="/logo.png" width="60" @click="go">

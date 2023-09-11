@@ -1,9 +1,9 @@
 <template>
-  <main>
+  <main class="wrap">
     <h1 class="title is-1 text-red-600 pt-10">
       Demolition Man
     </h1>
-    <div class="is-size-5 p-20">
+    <div class="is-size-5 py-20">
       In Demolition Man, players attempt to make their way through a randomly generated city.
       While racing against the camera, a variety of tools and gadgets can be picked up to destroy every generated building.
       The efficacy of the tool depends on which type of block players may try to destroy. After reaching the end of a level,
@@ -14,63 +14,67 @@
         <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/pWW7oa37l2U" title="YouTube video player" allowfullscreen />
       </figure>
     </div>
-    <div class="p-10 is-hidden-desktop">
+    <div class="is-hidden-desktop">
       <figure class="image is-16by9">
         <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/pWW7oa37l2U" title="YouTube video player" allowfullscreen />
       </figure>
     </div>
 
-    <div class="columns mt-10 p-10 bg-gray-300 is-hidden-touch">
-      <div class="column text-left">
-        <h1 class="title is-2 text-red-600 centered">
-          DETAILS
-        </h1>
+    <div class="my-10 p-10 bg-gray-300 is-hidden-touch rounded-2xl">
+      <h1 class="py-2 title is-2 text-red-600 centered">
+        DETAILS
+      </h1>
+      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
+        Genre: Platformer
         <br>
-        <h2 class="subtitle is-4 text-dark-900 font-semibold centered">
-          Genre: Platformer
-          <br>
-          Engine: Unity
-          <br>
-          Year: 2020
-        </h2>
-      </div>
-      <div class="column text-left">
-        <h1 class="title is-2 text-red-600 centered">
-          ROLE
-        </h1>
+        Platform: PC
         <br>
-        <h3 class="subtitle is-5 text-dark-900 font-semibold centered">
-          <ul>
-            <li>Ideation & Game Design</li>
-            <li>UI Design</li>
-            <li>Level-up system programming</li>
-          </ul>
-        </h3>
-      </div>
+        Engine: Unity
+        <br>
+        Year: 2020
+      </h2>
     </div>
 
-    <div class="columns mt-10 p-10 bg-gray-300 is-hidden-desktop">
+    <div class="my-10 p-10 bg-gray-300 is-hidden-touch rounded-2xl">
+      <h1 class="py-2 title is-2 text-red-600 centered">
+        MY ROLE
+      </h1>
+      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
+        Ideation and game design
+        <br>
+        UI design and development
+        <br>
+        Level-up system
+        <br>
+        Front-end development
+      </h2>
+    </div>
+
+    <div class="my-10 p-10 bg-gray-300 is-hidden-desktop rounded-2xl">
       <div class="column text-left">
-        <h1 class="title is-3 text-red-600">
+        <h1 class="py-2 title is-3 text-red-600">
           DETAILS
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">
           Genre: Platformer
           <br>
+          Platform: PC
+          <br>
           Engine: Unity
           <br>
           Year: 2020
         </h2>
       </div>
       <div class="column text-left">
-        <h1 class="title is-3 text-red-600">
+        <h1 class="py-2 title is-3 text-red-600">
           ROLE
         </h1>
         <h3 class="subtitle is-6 text-dark-900 font-semibold">
           <ul>
-            <li>Ideation & Game Design</li>
-            <li>UI Design</li>
-            <li>Level-up system programming</li>
+            <li>Ideation and game design</li>
+            <li>UI design and development</li>
+            <li>Level-up system</li>
+            <li>Front-end development</li>
           </ul>
         </h3>
       </div>

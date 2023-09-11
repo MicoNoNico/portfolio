@@ -1,29 +1,14 @@
 <template>
-  <main>
+  <main class="wrap">
     <h1 class="title is-1 text-amber-700 pt-10">
-      Medieval Asset Pack
+      Medieval FPS
     </h1>
-    <div class="is-size-5 p-20">
+    <div class="is-size-5 py-20">
       <br>
       <h2 class="subtitle is-4 text-light-900">
-        A low-poly asset pack created to learn 3D modeling in Blender.
+        A short FPS game created in Unity while learning 3D modeling in Blender.
         <br>
         <br>
-        <h3 class="subtitle is-4 text-left text-light-900 centered">
-          Contents:
-        </h3>
-        <ul class="text-left centered is-hidden-mobile">
-          <li>19 Models</li>
-          <li>4 VFX</li>
-          <li>6 Textures/Materials</li>
-          <li>4 UI elements</li>
-        </ul>
-        <ul class="text-left is-hidden-tablet">
-          <li>19 Models</li>
-          <li>4 VFX</li>
-          <li>6 Textures/Materials</li>
-          <li>4 UI elements</li>
-        </ul>
       </h2>
     </div>
     <div class="px-40 is-hidden-touch">
@@ -31,36 +16,68 @@
         <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/e3lT3nWPWjI" title="YouTube video player" allowfullscreen />
       </figure>
     </div>
-    <div class="p-10 is-hidden-desktop">
+    <div class="is-hidden-desktop">
       <figure class="image is-16by9">
         <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/e3lT3nWPWjI" title="YouTube video player" allowfullscreen />
       </figure>
     </div>
 
-    <div class="my-10 bg-gray-300 is-hidden-touch">
-      <h1 class="title is-2 text-amber-700 pt-20 centered">
+    <div class="my-10 p-10 bg-gray-300 is-hidden-touch rounded-2xl">
+      <h1 class="py-2 title is-2 text-amber-700 centered">
         DETAILS
       </h1>
-      <br>
-      <h2 class="subtitle is-4 text-dark-900 font-semibold centered">
-        Tool: Blender
+      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
+        Genre: FPS
+        <br>
+        Platform: PC
+        <br>
+        Engine: Unity
+        <br>
+        Main Tool: Blender
         <br>
         Year: 2021
       </h2>
-      <br>
     </div>
 
-    <div class="my-10 bg-gray-300 is-hidden-tablet">
-      <h1 class="title is-3 text-amber-700 pt-20">
-        DETAILS
+    <div class="my-10 p-10 bg-gray-300 is-hidden-touch rounded-2xl">
+      <h1 class="py-2 title is-2 text-amber-700 centered">
+        MY ROLE
       </h1>
-      <br>
-      <h2 class="subtitle is-6 text-dark-900 font-semibold">
-        Tool: Blender
+      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
+        Game design and development
         <br>
-        Year: 2021
+        3D and 2D art
+        <br>
       </h2>
-      <br>
+    </div>
+
+    <div class="my-10 p-10 bg-gray-300 is-hidden-desktop rounded-2xl">
+      <div class="column text-left">
+        <h1 class="py-2 title is-3 text-amber-700">
+          DETAILS
+        </h1>
+        <h2 class="subtitle is-6 text-dark-900 font-semibold">
+          Genre: Casual FPS
+          <br>
+          Platform: PC
+          <br>
+          Engine: Unity
+          <br>
+          Main Tool: Blender
+          <br>
+          Year: 2021
+        </h2>
+      </div>
+      <div class="column text-left">
+        <h1 class="py-2 title is-3 text-amber-700">
+          MY ROLE
+        </h1>
+        <h2 class="subtitle is-6 text-dark-900 font-semibold">
+          Game design and development
+          <br>
+          3D and 2D art
+        </h2>
+      </div>
     </div>
   </main>
 </template>
