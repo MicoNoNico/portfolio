@@ -24,14 +24,13 @@
       <h1 class="py-2 title is-2 text-red-600 centered">
         DETAILS
       </h1>
-      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
-        Genre: Platformer
-        <br>
-        Platform: PC
-        <br>
-        Engine: Unity
-        <br>
-        Year: 2020
+      <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Genre: Platformer</li>
+          <li>Platform: PC</li>
+          <li>Engine: Unity</li>
+          <li>Year: 2020</li>
+        </ul>
       </h2>
     </div>
 
@@ -39,14 +38,13 @@
       <h1 class="py-2 title is-2 text-red-600 centered">
         MY ROLE
       </h1>
-      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
-        Ideation and game design
-        <br>
-        UI design and development
-        <br>
-        Level-up system
-        <br>
-        Front-end development
+      <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Ideation and game design</li>
+          <li>UI design and development</li>
+          <li>Level-up system</li>
+          <li>Front-end development</li>
+        </ul>
       </h2>
     </div>
 
@@ -56,13 +54,12 @@
           DETAILS
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">
-          Genre: Platformer
-          <br>
-          Platform: PC
-          <br>
-          Engine: Unity
-          <br>
-          Year: 2020
+          <ul>
+            <li>Genre: Platformer</li>
+            <li>Platform: PC</li>
+            <li>Engine: Unity</li>
+            <li>Year: 2020</li>
+          </ul>
         </h2>
       </div>
       <div class="column text-left">

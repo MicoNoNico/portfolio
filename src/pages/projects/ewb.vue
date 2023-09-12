@@ -32,12 +32,12 @@
       <h1 class="title is-2 text-green-600 centered">
         DETAILS
       </h1>
-      <h2 class="py-2 subtitle is-5 text-dark-900 font-semibold centered">
-        Genre: Party game
-        <br>
-        Engine: Unity
-        <br>
-        Year: 2021
+      <h2 class="py-2 subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Genre: Party game</li>
+          <li>Engine: Unity</li>
+          <li>Year: 2021</li>
+        </ul>
       </h2>
     </div>
 
@@ -45,13 +45,14 @@
       <h1 class="title is-2 text-green-600 centered">
         MY ROLE
       </h1>
-      <h2 class="py-2 subtitle is-5 text-dark-900 font-semibold centered">
+      <h2 class="py-2 subtitle is-6 text-dark-900 font-semibold centered">
         <ul>
           <li>Ideation & Game Design</li>
           <li>UI design and development</li>
           <li>Character modeling, rigging and animations</li>
           <li>Physics-based movement with active ragdoll system</li>
-          <li>Map interactions</li>
+          <li>Map interactions system (traps, abilities etc.)</li>
+          <li>Conducted usability test sessions</li>
         </ul>
       </h2>
     </div>
@@ -62,24 +63,25 @@
           DETAILS
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">
-          Genre: Party game
-          <br>
-          Engine: Unity
-          <br>
-          Year: 2021
+          <ul>
+            <li>Genre: Party game</li>
+            <li>Engine: Unity</li>
+            <li>Year: 2021</li>
+          </ul>
         </h2>
       </div>
       <div class="column text-left">
         <h1 class="py-2 title is-3 text-green-600">
-          ROLE
+          MY ROLE
         </h1>
         <h3 class="subtitle is-6 text-dark-900 font-semibold">
           <ul>
             <li>Ideation & Game Design</li>
-            <li>UI Design</li>
+            <li>UI Design and development</li>
             <li>Character modeling, rigging and animations</li>
             <li>Physics-based movement with active ragdoll</li>
-            <li>Map interactions</li>
+            <li>Map interactions system (traps, abilities etc.)</li>
+            <li>Conducted usability test sessions</li>
           </ul>
         </h3>
       </div>

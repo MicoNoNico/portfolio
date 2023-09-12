@@ -10,6 +10,9 @@
       Your home is under attack by a monstrous alien! Guide the survivors to their designated Escapod to ensure their escape.
       <br>
       Keep the line moving at all costs!
+      <br>
+      <br>
+      Game jam theme: "Keep Moving!"
     </div>
     <video id="escapod-video" class="px-10 pb-10 centered is-hidden-mobile" autoplay muted controls>
       <source src="/escapod-cropped.mp4">
@@ -27,14 +30,13 @@
       <h1 class="py-2 title is-2 text-violet-500 centered">
         DETAILS
       </h1>
-      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
-        Genre: Casual game
-        <br>
-        Platform: Opera GX (Mobile/PC)
-        <br>
-        Engine: Game Maker Studio
-        <br>
-        Opera Mobile Game Jam 2022
+      <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Genre: Casual game</li>
+          <li>Platform: Opera GX (Mobile/PC)</li>
+          <li>Engine: Game Maker Studio</li>
+          <li>Created for: Opera Mobile Game Jam 2022</li>
+        </ul>
       </h2>
     </div>
 
@@ -42,12 +44,12 @@
       <h1 class="py-2 title is-2 text-violet-500 centered">
         MY ROLE
       </h1>
-      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
-        Ideation and concept direction
-        <br>
-        Mechanics and level design
-        <br>
-        Pixel Art
+      <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Ideation and concept direction</li>
+          <li>Mechanics and level design</li>
+          <li>Pixel art assets</li>
+        </ul>
       </h2>
     </div>
 
@@ -57,13 +59,12 @@
           DETAILS
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">
-          Genre: Casual game
-          <br>
-          Platform: Opera GX (Mobile/PC)
-          <br>
-          Engine: Game Maker Studio
-          <br>
-          Opera Mobile Game Jam 2022
+          <ul>
+            <li>Genre: Casual game</li>
+            <li>Platform: Opera GX (Mobile/PC)</li>
+            <li>Engine: Game Maker Studio</li>
+            <li>Created for: Opera Mobile Game Jam 2022</li>
+          </ul>
         </h2>
       </div>
       <div class="column text-left">
@@ -71,11 +72,11 @@
           MY ROLE
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">
-          Ideation and concept direction
-          <br>
-          Mechanics and level design
-          <br>
-          Pixel Art
+          <ul>
+            <li>Ideation and concept direction</li>
+            <li>Mechanics and level design</li>
+            <li>Pixel art assets</li>
+          </ul>
         </h2>
       </div>
     </div>

@@ -22,14 +22,13 @@
       <h1 class="py-2 title is-2 text-cyan-500 centered">
         DETAILS
       </h1>
-      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
-        Genre: Educational game
-        <br>
-        Engine: Unity
-        <br>
-        Test platform: Oculus Quest 2
-        <br>
-        Year: 2021
+      <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Genre: Educational game</li>
+          <li>Engine: Unity</li>
+          <li>Test platform: Oculus Quest 2</li>
+          <li>Year: 2021</li>
+        </ul>
       </h2>
     </div>
 
@@ -37,14 +36,14 @@
       <h1 class="py-2 title is-2 text-cyan-500 centered">
         MY ROLE
       </h1>
-      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
-        Iteration and concept direction
-        <br>
-        Mechanics and level design
-        <br>
-        UI design and development
-        <br>
-        Front-end development
+      <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Iteration and concept direction</li>
+          <li>Mechanics ideation and level design</li>
+          <li>VR-friendly UI design and development</li>
+          <li>Various scenes implemented to integrate 360 videos with 3D VR environments</li>
+          <li>Conducted various playtesting and demonstration sessions</li>
+        </ul>
       </h2>
     </div>
 
@@ -54,24 +53,25 @@
           DETAILS
         </h1>
         <h2 class="py-2 subtitle is-6 text-dark-900 font-semibold">
-          Genre: Educational game
-          <br>
-          Engine: Unity
-          <br>
-          Test platform: Oculus Quest 2
-          <br>
-          Year: 2021
+          <ul>
+            <li>Genre: Educational game</li>
+            <li>Engine: Unity</li>
+            <li>Test platform: Oculus Quest 2</li>
+            <li>Year: 2021</li>
+          </ul>
         </h2>
       </div>
       <div class="column text-left">
         <h1 class="py-2 title is-3 text-cyan-500">
-          ROLE
+          MY ROLE
         </h1>
         <h3 class="subtitle is-6 text-dark-900 font-semibold">
           <ul>
-            <li>Ideation & Game Design</li>
-            <li>UI Design</li>
-            <li>Front-end development</li>
+            <li>Iteration and concept direction</li>
+            <li>Mechanics ideation and level design</li>
+            <li>VR-friendly UI design and development</li>
+            <li>Various scenes implemented to integrate 360 videos with 3D VR environments</li>
+            <li>Conducted various playtesting and demonstration sessions</li>
           </ul>
         </h3>
       </div>

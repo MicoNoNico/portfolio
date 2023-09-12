@@ -42,7 +42,7 @@
             </h2>
             <br>
             <h2 class="subtitle is-4 text-light-900">
-              Role: Artist
+              Role: Game Designer & Artist
             </h2>
           </div>
         </div>
@@ -63,7 +63,7 @@
             </h2>
             <br>
             <h2 class="subtitle is-4 text-light-900">
-              Role: UX Designer
+              Role: Game Designer, UI/UX Designer, Programmer
             </h2>
           </div>
         </div>
@@ -87,7 +87,7 @@
             </h2>
             <br>
             <h2 class="subtitle is-4 text-light-900">
-              Role: Artist & UI Designer
+              Role: Game Designer, 3D Artist, UI/UX Designer, Programmer
             </h2>
           </div>
         </div>
@@ -101,7 +101,10 @@
         <div class="overlay bg-amber-600">
           <div class="m-auto">
             <h1 class="title is-3 text-light-900">
-              Art Asset Pack
+              Medieval FPS
+              <h2 class="subtitle is-4 text-light-900">
+                Art asset pack
+              </h2>
             </h1>
           </div>
         </div>
@@ -125,7 +128,7 @@
             </h2>
             <br>
             <h2 class="subtitle is-4 text-light-900">
-              Role: Programmer & UI Designer
+              Role: Game Designer, Programmer, UI/UX Designer
             </h2>
           </div>
         </div>

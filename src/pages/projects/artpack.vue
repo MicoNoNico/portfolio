@@ -26,16 +26,14 @@
       <h1 class="py-2 title is-2 text-amber-700 centered">
         DETAILS
       </h1>
-      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
-        Genre: FPS
-        <br>
-        Platform: PC
-        <br>
-        Engine: Unity
-        <br>
-        Main Tool: Blender
-        <br>
-        Year: 2021
+      <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Genre: FPS</li>
+          <li>Platform: PC</li>
+          <li>Engine: Unity</li>
+          <li>Main Tool: Blender</li>
+          <li>Year: 2021</li>
+        </ul>
       </h2>
     </div>
 
@@ -43,11 +41,12 @@
       <h1 class="py-2 title is-2 text-amber-700 centered">
         MY ROLE
       </h1>
-      <h2 class="subtitle is-5 text-dark-900 font-semibold centered">
-        Game design and development
-        <br>
-        3D and 2D art
-        <br>
+      <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
+        <ul>
+          <li>Game design and development</li>
+          <li>2D art simple UI</li>
+          <li>Low poly 3D assets</li>
+        </ul>
       </h2>
     </div>
 
@@ -57,15 +56,13 @@
           DETAILS
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">
-          Genre: Casual FPS
-          <br>
-          Platform: PC
-          <br>
-          Engine: Unity
-          <br>
-          Main Tool: Blender
-          <br>
-          Year: 2021
+          <ul>
+            <li>Genre: FPS</li>
+            <li>Platform: PC</li>
+            <li>Engine: Unity</li>
+            <li>Main Tool: Blender</li>
+            <li>Year: 2021</li>
+          </ul>
         </h2>
       </div>
       <div class="column text-left">
@@ -73,9 +70,11 @@
           MY ROLE
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">
-          Game design and development
-          <br>
-          3D and 2D art
+          <ul>
+            <li>Game design and development</li>
+            <li>2D art simple UI</li>
+            <li>Low poly 3D assets</li>
+          </ul>
         </h2>
       </div>
     </div>
