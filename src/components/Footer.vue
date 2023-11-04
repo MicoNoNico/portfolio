@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <footer class="footer bg-dark-900 w-full h-auto p-2 bottom-0">
+  <footer class="footer bg-dark-900 w-full h-auto p-2 bottom-0 above-content">
     <nav class="centered">
       <a href="https://www.linkedin.com/in/niccolo-chiodo/"><Icon icon="mdi:linkedin" target="_blank" height="40" color="white" class="display-inline m-5" /></a>
       <a href="https://github.com/MicoNoNico"><Icon icon="mdi:github" target="_blank" width="40" color="white" class="display-inline m-5" /></a>

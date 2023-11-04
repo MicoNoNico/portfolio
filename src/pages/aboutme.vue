@@ -1,6 +1,6 @@
 <template>
   <main class="wrap">
-    <div class="mt-10">
+    <div class="mt-30">
       <div class="mx-10 text-left text-xl text-light-900">
         <span class="subtitle is-3 text-light-900">Hi there, I’m Nico and I’m an aspiring Game UI and UX developer.</span>
         <br>
@@ -32,8 +32,8 @@
       </div>
     </div>
 
-    <div class="mt-20 is-hidden-desktop rounded-2xl">
-      <div class="bg-gray-300 mx-10 my-10">
+    <div class="mt-20 is-hidden-desktop">
+      <div class="bg-gray-300 mx-10 my-10 rounded-2xl">
         <img class="skill-icon" src="/csharp-logo.svg" alt="c sharp logo" style="width: auto; height: 50px;">
         <img class="skill-icon" src="/html-logo.png" alt="html 5 logo" style="width: auto; height: 50px;">
         <img class="skill-icon" src="/js-logo.png" alt="javascript logo" style="width: auto; height: 50px;">

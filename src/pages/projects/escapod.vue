@@ -27,7 +27,7 @@
     </a>
 
     <div class="my-10 p-10 bg-gray-300 is-hidden-touch rounded-2xl">
-      <h1 class="py-2 title is-2 text-violet-500 centered">
+      <h1 class="py-2 title is-2 text-violet-400 centered">
         DETAILS
       </h1>
       <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
@@ -41,7 +41,7 @@
     </div>
 
     <div class="my-10 p-10 bg-gray-300 is-hidden-touch rounded-2xl">
-      <h1 class="py-2 title is-2 text-violet-500 centered">
+      <h1 class="py-2 title is-2 text-violet-400 centered">
         MY ROLE
       </h1>
       <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
@@ -55,7 +55,7 @@
 
     <div class="my-10 p-10 bg-gray-300 is-hidden-desktop rounded-2xl">
       <div class="column text-left">
-        <h1 class="py-2 title is-3 text-violet-500">
+        <h1 class="py-2 title is-3 text-violet-400">
           DETAILS
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">
@@ -68,7 +68,7 @@
         </h2>
       </div>
       <div class="column text-left">
-        <h1 class="py-2 title is-3 text-violet-500">
+        <h1 class="py-2 title is-3 text-violet-400">
           MY ROLE
         </h1>
         <h2 class="subtitle is-6 text-dark-900 font-semibold">

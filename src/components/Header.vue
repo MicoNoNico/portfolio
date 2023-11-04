@@ -7,7 +7,7 @@ const go = () => {
 </script>
 
 <template>
-  <nav id="navBar" class="navbar is-spaced shadow py-3 bg-dark-400" role="navigation" aria-label="main navigation">
+  <nav id="navBar" class="navbar is-fixed-top is-spaced shadow py-3 bg-dark-400" role="navigation" aria-label="main navigation">
     <div class="navbar-brand flex">
       <a to="/" class="my-auto ml-2 !active:outline-none !focus:outline-none">
         <img src="/logo.png" width="60" @click="go">
@@ -20,11 +20,8 @@ const go = () => {
     </div>
     <div id="navBarMain" class="navbar-menu text-xl bg-transparent" :class="{ 'is-active': isActive }">
       <div class="navbar-end">
-        <router-link to="/ui" class="navbar-item text-light-900 mx-1" @click="isActive = false">
-          <b>UI/UX</b>
-        </router-link>
         <router-link to="/" class="navbar-item text-light-900 mx-1" @click="isActive = false">
-          Projects
+          Portfolio
         </router-link>
         <router-link to="/aboutme" class="navbar-item text-light-900 mx-1" @click="isActive = false">
           About Me

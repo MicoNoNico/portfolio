@@ -1,0 +1,142 @@
+{
+    "cards": [
+      {       
+          "imageSrc": "/materia-splash.png",
+          "cardTitle": "Project Materia",
+          "cardYear": "(2023)",
+          "cardSubtitle": "2D Rogue-lite",
+          "typeTag": [
+            "Personal"
+          ],
+          "designTag": [
+            "Game Design"
+          ],
+          "artTag": [
+            "Art",
+            "UI/UX Design"
+          ],
+          "programmingTag": [
+            "Programming (C#)",
+            "Code Snippet"
+          ],
+          "link": "/projects/materia"       
+      },
+      {       
+        "imageSrc": "/vrforge-splash.png",
+        "cardTitle": "VR Forge",
+        "cardYear": "(2023)",
+        "cardSubtitle": "Level editor for VR projects",
+        "designTag": [
+          "Game Design",
+          "QA & Public testing"
+        ],
+        "artTag": [
+          "UI/UX Design"
+        ],
+        "link": "/projects/vrforge"       
+      },
+      {       
+        "imageSrc": "/guianthology-splash.png",
+        "cardTitle": "GUI Anthology",
+        "cardYear": "(2023)",
+        "cardSubtitle": "UI asset pack",
+        "typeTag": [
+          "Personal"
+        ],
+        "artTag": [
+          "UI/UX Design"
+        ],
+        "link": "/projects/guianthology"       
+      },
+      {       
+        "imageSrc": "/escapod-splash.png",
+        "cardTitle": "Escapod",
+        "cardYear": "(2022)",
+        "cardSubtitle": "Casual mobile game",
+        "typeTag": [
+          "Game Jam"
+        ],
+        "designTag": [
+          "Game Design"
+        ],
+        "artTag": [
+          "Art"
+        ],
+        "link": "/projects/escapod"       
+      },
+      {       
+        "imageSrc": "/drivr-splash.png",
+        "cardTitle": "DriVR",
+        "cardYear": "(2021)",
+        "cardSubtitle": "VR educational game",
+        "typeTag": [
+          "Internship"
+        ],
+        "designTag": [
+          "Game Design"
+        ],
+        "artTag": [
+          "UI/UX Design"
+        ],
+        "programmingTag": [
+          "Programming (C#)"
+        ],
+        "link": "/projects/drivr"       
+      },
+      {       
+        "imageSrc": "/ewb-splash.png",
+        "cardTitle": "Enemies with Benefits",
+        "cardYear": "(2021)",
+        "cardSubtitle": "Multiplayer party game",
+        "typeTag": [
+          "University"
+        ],
+        "designTag": [
+          "Game Design"
+        ],
+        "artTag": [
+          "UI/UX Design",
+          "3D Art"
+        ],
+        "programmingTag": [
+          "Programming (C#)"
+        ],
+        "link": "/projects/ewb"       
+      },
+      {       
+        "imageSrc": "/artpack-splash.png",
+        "cardTitle": "Medieval FPS",
+        "cardYear": "(2021)",
+        "cardSubtitle": "Playable asset pack",
+        "typeTag": [
+          "University"
+        ],
+        "designTag": [
+          "Game Design"
+        ],
+        "artTag": [
+          "3D Art"
+        ],
+        "link": "/projects/artpack"       
+      },
+      {       
+        "imageSrc": "/demoman-splash.png",
+        "cardTitle": "Demolition Man",
+        "cardYear": "(2020)",
+        "cardSubtitle": "Destructive platformer",
+        "typeTag": [
+          "University"
+        ],
+        "designTag": [
+          "Game Design"
+        ],
+        "artTag": [
+          "UI/UX Design"
+        ],
+        "programmingTag": [
+          "Programming (C#)"
+        ],
+        "link": "/projects/demoman"       
+      } 
+  ]
+}

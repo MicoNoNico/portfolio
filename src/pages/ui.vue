@@ -130,7 +130,7 @@ export default {
           Animico.AniX(menuButtons.transform, 0f, menuButtonTransitionDuration);
       }
 
-            </code></pre>
+      </code></pre>
         </details>
         <br>
         <details>
@@ -320,5 +320,5 @@ export default {
     <route lang="yaml">
 meta:
   layout: home
-      </route>
+</route>
 

@@ -1,6 +1,6 @@
 <template>
-  <main class="wrap">
-    <h1 class="title is-1 text-cyan-500 pt-10">
+  <main class="wrap mt-30">
+    <h1 class="title is-1 text-violet-400 pt-10">
       DriVR
     </h1>
     <div class="is-size-5 py-20">
@@ -19,7 +19,7 @@
     </div>
 
     <div class="my-10 p-10 bg-gray-300 is-hidden-touch rounded-2xl">
-      <h1 class="py-2 title is-2 text-cyan-500 centered">
+      <h1 class="py-2 title is-2 text-violet-400 centered">
         DETAILS
       </h1>
       <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
@@ -33,7 +33,7 @@
     </div>
 
     <div class="my-10 p-10 bg-gray-300 is-hidden-touch rounded-2xl">
-      <h1 class="py-2 title is-2 text-cyan-500 centered">
+      <h1 class="py-2 title is-2 text-violet-400 centered">
         MY ROLE
       </h1>
       <h2 class="subtitle is-6 text-dark-900 font-semibold centered">
@@ -49,7 +49,7 @@
 
     <div class="my-10 p-10 bg-gray-300 is-hidden-desktop rounded-2xl">
       <div class="column text-left">
-        <h1 class="title is-3 text-cyan-500">
+        <h1 class="title is-3 text-violet-400">
           DETAILS
         </h1>
         <h2 class="py-2 subtitle is-6 text-dark-900 font-semibold">
@@ -62,7 +62,7 @@
         </h2>
       </div>
       <div class="column text-left">
-        <h1 class="py-2 title is-3 text-cyan-500">
+        <h1 class="py-2 title is-3 text-violet-400">
           MY ROLE
         </h1>
         <h3 class="subtitle is-6 text-dark-900 font-semibold">
