@@ -19,7 +19,7 @@ export default defineComponent ({
 
 <template>
   <div class="popup cursor-pointer" @click="go">
-    <figure class="home-image">
+    <figure class="home-image mobile-height">
       <img class="rounded-2xl" :src="projectData.imageSrc" alt="Card background">
     </figure>
     <div class="popup-container bg-dark-200 rounded-2xl column-outline shadow-dark-900 shadow-md">

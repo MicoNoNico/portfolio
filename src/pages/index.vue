@@ -58,7 +58,7 @@ export default {
   </div>
 
   <div class="above-content push-down wrap rounded-2xl">
-    <div class="columns py-5 is-mobile is-multiline bg-dark-400 rounded-2xl">
+    <div class="columns px-2 is-mobile is-multiline bg-dark-400 rounded-2xl">
       <div v-for="card in myJson.cards" :key="card" class="column is-one-third-desktop is-one-third-tablet is-full-mobile my-3">
         <card :project-data="card" />
       </div>
