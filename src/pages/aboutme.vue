@@ -2,7 +2,7 @@
   <main class="wrap">
     <div class="mt-30">
       <div class="mx-10 text-left text-xl text-light-900">
-        <span class="subtitle is-3 text-light-900">Hi there, I’m Nico and I’m an aspiring Game UI and UX developer.</span>
+        <span class="subtitle is-3 text-light-900">Hi there, I’m Nico and I’m an aspiring Game Designer.</span>
         <br>
         <br>
         Having recently graduated in June 2023 with a degree in Game Design from Hanze University of Applied Sciences in Groningen, Netherlands, I've now returned home in Italy.
